@@ -35,12 +35,12 @@ p {
 .wrapper {
   padding: 0 20rem;
   max-width: 128rem;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1075px) {
     .wrapper {
       padding: 0;
-      margin: 0 auto;
     }
 }
 
@@ -261,11 +261,13 @@ p {
 
 .mobile {
   display: none;
+  opacity: 0;
 }
 
 @media only screen and (max-width: 520px) {
     .mobile {
       display: block;
+      opacity: 1;
     }
 }
 
