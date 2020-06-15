@@ -171,6 +171,7 @@ p {
 @media only screen and (max-width: 520px) {
     .profile__btn {
       width: max-content;
+      padding: .5rem 1rem;
     }
 }
 
