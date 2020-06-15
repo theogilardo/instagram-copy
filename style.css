@@ -130,7 +130,7 @@ p {
 
 @media only screen and (max-width: 520px) {
     .logo {
-      grid-template-columns: 30% repeat(3, 1fr);
+      grid-template-columns: 27% repeat(3, 1fr);
     }
 }
 
