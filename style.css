@@ -128,6 +128,12 @@ p {
   margin-bottom: 3rem;
 }
 
+@media only screen and (max-width: 520px) {
+    .logo {
+      grid-template-columns: 30% repeat(3, 1fr);
+    }
+}
+
 .flex {
   display: flex;
   -ms-align-items: center;
@@ -173,7 +179,6 @@ p {
       grid-column: 3 / 5;
       width: max-content;
       padding: .5rem 2rem;
-      justify-self: center;
     }
 }
 
