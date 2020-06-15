@@ -187,7 +187,7 @@ p {
     .profile__icon {
       width: 18px;
       height: 18px;
-      justify-self: center;
+      justify-self: end;
     }
 }
 
