@@ -172,6 +172,7 @@ p {
     .profile__btn {
       width: max-content;
       padding: .5rem 2rem;
+      justify-self: flex-end;
     }
 }
 
