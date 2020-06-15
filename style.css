@@ -186,7 +186,7 @@ p {
 
 @media only screen and (max-width: 520px) {
     .profile__icon {
-      display: none;
+      opacity: 0;
     }
 }
 
