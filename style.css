@@ -166,7 +166,12 @@ p {
   justify-self: flex-start;
   align-self: flex-end;
   padding: .5rem 2rem;
+}
 
+@media only screen and (max-width: 520px) {
+    .profile__btn {
+      width: max-content;
+    }
 }
 
 .profile__icon {
@@ -175,6 +180,14 @@ p {
   width: 30px;
   height: 30px;
   align-self: flex-end;
+}
+
+@media only screen and (max-width: 520px) {
+    .profile__icon {
+      width: 18px;
+      height: 18px;
+      margin-left: 4px;
+    }
 }
 
 .profile__publication {
@@ -264,6 +277,12 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
+}
+
+@media only screen and (max-width: 520px) {
+    .photos {
+      grid-gap: 0;
+    }
 }
 
 .photo {
