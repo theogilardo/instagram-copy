@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <title>Instagram</title>
   <link type="text/css" rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap" rel="stylesheet">
@@ -10,18 +11,26 @@
 <body>
     <nav class="navbar">
         <img src="img/instagram.png" alt="" class="logo">
-        <input class="search-bar" type="text" placeholder="Search">
+        <input class="search-bar desktop" type="text" placeholder="Search">
         <div class="navbar__tools">
             <div style="position: relative;">
-                <ion-icon class='icon' name="home-outline"></ion-icon>
-                <div class="notification">4</div>
+                <ion-icon class='icon desktop' name="home-outline"></ion-icon>
+                <div class="notification desktop">4</div>
             </div>
-            <ion-icon class='icon' name="send-outline"></ion-icon>
-            <ion-icon class='icon' name="compass-outline"></ion-icon>
-            <ion-icon class='icon' name="heart-outline"></ion-icon>
-            <ion-icon class='icon' name="person-circle-outline"></ion-icon>
+            <ion-icon class='icon desktop' name="send-outline"></ion-icon>
+            <ion-icon class='icon desktop' name="compass-outline"></ion-icon>
+            <ion-icon class='icon desktop' name="heart-outline"></ion-icon>
+            <ion-icon class='icon desktop' name="person-circle-outline"></ion-icon>
+            <ion-icon class='icon mobile' name="menu-outline"></ion-icon>
         </div>
     </nav>
+
+    <div class="sticky-nav mobile">
+      <ion-icon class='icon' name="send-outline"></ion-icon>
+      <ion-icon class='icon' name="compass-outline"></ion-icon>
+      <ion-icon class='icon' name="heart-outline"></ion-icon>
+      <ion-icon class='icon' name="person-circle-outline"></ion-icon>
+    </div>
 
     <div class="wrapper">
 
