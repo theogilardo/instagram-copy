@@ -186,7 +186,7 @@ p {
     .profile__icon {
       width: 18px;
       height: 18px;
-      margin-left: 4px;
+      justify-self: center;
     }
 }
 
